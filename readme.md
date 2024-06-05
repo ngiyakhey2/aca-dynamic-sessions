@@ -76,13 +76,6 @@ az containerapp sessionpool create \
 
 ```
 
-## Dependencies
-The application uses the following dependencies:
-
-Spring Boot
-Azure Identity
-OkHttp
-
 ## Running the application
 To run the application, use the following command:
 
