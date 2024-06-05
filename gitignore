@@ -1,0 +1,71 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+logs/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+*.old
+*.tmp
+*.temp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+!**/src/main/**/application.properties
+!**/src/main/**/application.yml
+!**/src/test/**/application.properties
+!**/src/test/**/application.yml
+HELP.md
+spring-boot-starter-actuator/
+spring-boot-devtools/
+
+# Spring Boot Actuator: metrics repository
+metrics/
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
